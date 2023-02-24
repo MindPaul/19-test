@@ -1,0 +1,39 @@
+.heros-left {
+  width: 416px;
+  height: 226px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #ffff;
+}
+.welcome {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.pavadinimas {
+  font-size: 40px;
+  line-height: 125%;
+  font-weight: 700;
+}
+.aprasymas{
+  font-size: 15px;
+  line-height: 125%;
+  font-weight: 400;
+  color:rgba(255, 255, 255, 0.75); ;
+}
+.buttono{
+  margin-top: 30px;
+}
+.explore-link{
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding: 12px 50px;
+  background-color: #ffff;
+  border-radius: 5px;
+}
