@@ -1,5 +1,5 @@
-header {
-  background-color: #74C69D;
+.header {
+  padding: 0;  
 }
 .header {
   display: flex;
