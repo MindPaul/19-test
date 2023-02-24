@@ -14,5 +14,12 @@
   font-weight: 400;
   line-height: 125%;
   color: #fff;
- 
+}
+
+@media(max-width: 1400px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 }

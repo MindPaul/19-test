@@ -1,3 +1,7 @@
+.hero-media {
+  display: flex;
+  flex-direction: column;
+}
 .heros-left {
   width: 416px;
   height: 226px;
@@ -37,3 +41,20 @@
   background-color: #ffff;
   border-radius: 5px;
 }
+.hero-img{
+  width: 100%;
+}
+.hero-img2{
+  width: 100%;
+}
+.media {
+  padding: 0;
+  height: 100vh;
+}
+
+ 
+@media(max-width: 2599px) {
+  .hero-media {
+    flex-direction: row;
+    
+  }} 

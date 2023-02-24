@@ -18,21 +18,23 @@
           <img class="img-logo" src="./IMG/header/logoVektoriai.png" alt="logo">
           <span class="header-span">Start</span>
         </div>
-        <nav class="meniu-nav">
+        <nav class="meniu-nav hidden visible-md">
           <a class="meniu-a" href="#">Home</a>
           <a class="meniu-a" href="#">Portfolio</a>
           <a class="meniu-a" href="#">Services</a>
           <a class="meniu-a" href="#">Contact</a>
         </nav>
+        <a class="visible hidden-md" href="#"><img src="./IMG/header/hambur.png" alt="hambur"></a>
       </div>
     </div>
   </header>
   <!-- header: end -->
 
   <!-- heros: start -->
-  <heros class="container">
-    <div class="row">
-      <div class="col-6 heros-left">
+  <heros class="container media ">
+    <div class=" row hero-media">
+      <div class="col-12 col-lg-6  heros-left">
+        <img  class="hero-img hidden-lg" src="./IMG/heros/main-foto.png" alt="famili">
         <h3 class="welcome">WELCOME</h3>
         <h1 class="pavadinimas">Lorem ipsum dolor sit amet.</h1>
         <p class="aprasymas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In consequatur voluptate
@@ -40,9 +42,11 @@
         <div class="buttono">
           <a class="explore-link" href="#">Explore</a>
         </div>
+        
       </div>
-      <div class="col-6"><img src="./IMG/heros/main-foto.png" alt="famili"></div>
-
+      <div class="hidden visible-lg col-lg-6"><img  class="hero-img2  " src="./IMG/heros/main-foto.png" alt="famili">
+      </div>
+    </div>
     </div>
   </heros>
   <!-- heros: end -->

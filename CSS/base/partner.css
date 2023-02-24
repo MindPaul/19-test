@@ -53,3 +53,9 @@
 .center {
   text-align: center;
 }
+
+@media(max-width: 1400px) {
+  .parner-img {
+    flex-direction: column;
+  }
+}
