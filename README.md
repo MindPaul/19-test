@@ -13,7 +13,7 @@ _HTML/CSS course test_
 
 This test is for educational porpuses only.
 
-Site published at: 
+Site published at: mindpaul.github.io/19-test/
 
 Design: [Web-NoJs](https://www.figma.com/file/uy1jUWN0N09HSApvSTfb3q/FE-Start-Task?node-id=5%3A150&t=Bz2ulhq5OJYiPf69-0)
 
